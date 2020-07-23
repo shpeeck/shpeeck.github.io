@@ -38,3 +38,9 @@ li.nav-item {
     background-color: rgb(80, 40, 100);
     color: #ffffff;
 }
+
+@media only screen and (max-width : 768px){
+    .navbar-nav .nav-link{
+        padding-left: 30px;
+    }
+}
