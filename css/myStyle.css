@@ -29,7 +29,7 @@ li.nav-item {
 }
 .pol{
     width: 60%;
-    min-width: 300px;
+    min-width: 300px !important;
     text-align: center;
     margin: auto;
     padding: 0;
