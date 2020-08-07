@@ -31,6 +31,12 @@ a.nav-link {
 li.nav-item {
     padding-right: 10px;
 }
+li.nav-item {
+    /* margin-left: 20px; */
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-left: 30px; */
+}
 button > .navbar-toggler-icon {
 	width: 70px;
 	height: 70px !important;
