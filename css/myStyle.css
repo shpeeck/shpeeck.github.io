@@ -31,6 +31,10 @@ a.nav-link {
 li.nav-item {
     padding-right: 10px;
 }
+button > .navbar-toggler-icon {
+	width: 70px;
+	height: 70px !important;
+}
 .pol{
     width: 60%;
     min-width: 300px;
