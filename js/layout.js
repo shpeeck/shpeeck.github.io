@@ -133,6 +133,35 @@ var Layout = function () {
         });
     }
 
+    // swiper
+    const swiper = new Swiper('.swiper-container', {
+        // Optional parameters
+        // direction: 'vertical',
+        // slidesPerView: 1,
+        // spaceBetween: 30,
+        loop: true,
+        speed: 300,
+        autoplay: {
+            delay: 5000,
+        },
+
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+            el: '.swiper-scrollbar',
+        },
+    });
+
     return {
         init: function () {
             // initial setup for fixed header
@@ -146,6 +175,9 @@ var Layout = function () {
             $(window).scroll(function() {
                 handleHeaderOnScroll();
             });
+
+            // swiper
+            swiper;
         },
 
         // To get the correct viewport width based on  http://andylangton.co.uk/articles/javascript/get-viewport-size-javascript/
@@ -163,6 +195,9 @@ var Layout = function () {
             };
         },
     };
+
+
+    
 }();
 
 $(document).ready(function() {
