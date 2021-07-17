@@ -504,11 +504,12 @@ fieldset[disabled] .btn-theme {
     left: 0;
     right: 0;
     width: 730px;
-    height: auto;
+    height: 90%;
     display: block;
     background: #fff;
     padding: 30px;
     margin: 0 auto;
+    overflow-y: scroll;
     -webkit-transform: translate3d(0, -50%, 0);
     -moz-transform: translate3d(0, -50%, 0);
     transform: translate3d(0, -50%, 0);
